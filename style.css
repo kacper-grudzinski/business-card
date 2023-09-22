@@ -21,10 +21,12 @@ body {
   width: 624px;
   margin: 16px;
   padding: 32px;
+  border:3px solid black;
 }
 
 .person {
-
+display: flex;
+align-items: flex-start;
 }
 
 .person__description {
@@ -45,6 +47,14 @@ body {
 font-size: 36px;
 margin: 0;
 font-weight: normal;
+}
+
+.person__picture {
+    margin-right: 32px;
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    border: 2px solid #545454;
 }
 
 .person__position {
